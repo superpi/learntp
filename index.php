@@ -18,9 +18,6 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 
 //生成目录区域
-define('BIND_MODULE','Auth');
-define('BUILD_CONTROLLER_LIST','Index');
-define('BUILD_MODEL_LIST','User');
 
 // 定义应用目录
 define('APP_PATH','./Application/');
